@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'omniauth-pushbullet/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = ""
-  spec.version       = Omniauth::Pushbullet::VERSION
+  spec.name          = "omniauth-pushbullet"
+  spec.version       = OmniAuth::Pushbullet::VERSION
   spec.authors       = ["Sam Aarons"]
   spec.email         = ["samaarons@gmail.com"]
   spec.summary       = "An omniauth adapter for Pushbullet."
